@@ -171,7 +171,7 @@ export default class ModelHandler extends Handler {
 
   setupAudio() {
     // Create audio element
-    this.audio = new Audio('./Neutral _ Uncertainty.wav.wav');
+    this.audio = new Audio('/Neutral _ Uncertainty.wav.wav');
     this.audio.loop = true;
     this.audio.volume = 0.5;
 
